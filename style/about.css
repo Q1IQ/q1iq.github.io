@@ -13,3 +13,7 @@
 .about-page .about-title {
   font-weight: normal;
 }
+.about-page section.column {
+  position: relative;
+  z-index: 10;
+}
