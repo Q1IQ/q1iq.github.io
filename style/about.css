@@ -17,3 +17,10 @@
   position: relative;
   z-index: 10;
 }
+.about-page article a {
+  color: #0070f3;
+  text-decoration: underline;
+}
+.about-page article a:hover {
+  color: #0050c0;
+}
