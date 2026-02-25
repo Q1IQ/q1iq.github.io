@@ -2,9 +2,12 @@
   height: 100%;
 }
 .about-page aside img {
-  width: 100%;
-  height: 100%;
+  width: 60%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%; /* Optional: Make it circular for a nice aesthetic */
   padding: 5px;
+  margin: 0 auto; /* Center the image */
   object-fit: cover;
 }
 .about-page .about-title {
