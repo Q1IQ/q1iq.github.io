@@ -1,14 +1,31 @@
 .about-page {
   height: 100%;
 }
-.about-page aside img {
-  width: 60%;
-  max-width: 250px;
+.about-page article {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about-page .about-intro {
+  display: grid;
+  grid-template-columns: clamp(110px, 25%, 210px) minmax(0, 1fr);
+  gap: clamp(12px, 3vw, 24px);
+  align-items: start;
+}
+.about-page .about-avatar {
+  display: block;
+  width: 100%;
   height: auto;
-  border-radius: 50%; /* Optional: Make it circular for a nice aesthetic */
-  padding: 5px;
-  margin: 0 auto; /* Center the image */
-  object-fit: cover;
+  border-radius: 50%;
+}
+.about-page .about-intro-copy {
+  min-width: 0;
+}
+.about-page .about-intro-copy p:first-child {
+  margin-top: 0;
+}
+.about-page .about-intro-copy p:last-child {
+  margin-bottom: 0;
 }
 .about-page .about-title {
   font-weight: normal;
