@@ -8,14 +8,15 @@
 }
 .about-page .about-intro {
   display: grid;
-  grid-template-columns: clamp(110px, 25%, 210px) minmax(0, 1fr);
-  gap: clamp(12px, 3vw, 24px);
+  grid-template-columns: clamp(100px, 20%, 165px) minmax(0, 1fr);
+  gap: clamp(12px, 2.5vw, 20px);
   align-items: start;
 }
 .about-page .about-avatar {
   display: block;
   width: 100%;
-  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
   border-radius: 50%;
 }
 .about-page .about-intro-copy {
